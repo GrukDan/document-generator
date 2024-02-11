@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/documentary
+    username: documentary
+    password: documentary
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    enabled: true
+    change-log: db/db.changelog-master.yaml
+  docker:
+    compose:
+      enabled: false

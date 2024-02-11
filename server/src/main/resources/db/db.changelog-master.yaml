@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      author: Gruk
+      file: db/changelog/sql/create-tables.sql
+  - include:
+      author: Gruk
+      file: db/changelog/sql/hibernate-envers_tables.sql
